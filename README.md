@@ -1,5 +1,4 @@
-# Smart-Shopping-App
-Graduation project: Smart shopping system with AI and computer vision.
+
 # Smart Shopping Application 🛒
 
 A graduation project developed at **Taibah University (2023)**.  
