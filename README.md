@@ -6,7 +6,7 @@ The system simulates a **cashier-less smart store** using **AI, computer vision,
 
 ---
 
-## 📌 Overview
+## Overview
 This project provides a seamless shopping experience:
 - Customers enter the store using a **QR code**.
 - Products are added to the cart by **scanning barcodes** or automatically via **IoT sensor boxes**.
@@ -15,7 +15,7 @@ This project provides a seamless shopping experience:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Mobile App:** Xamarin Forms (C#)
 - **API Server:** ASP.NET Core Web API
 - **Database:** MySQL
@@ -25,7 +25,7 @@ This project provides a seamless shopping experience:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 SmartShoppingApp/
 ├── MobileApp/       # Xamarin app (Login, Cart, QR/Barcode scanning)
@@ -38,7 +38,7 @@ SmartShoppingApp/
 
 ---
 
-## ⚙️ Features
+##  Features
 - User registration and login  
 - QR code for store entry/exit  
 - Barcode scanning (ZXing integration placeholder)  
@@ -48,7 +48,7 @@ SmartShoppingApp/
 
 ---
 
-## 🔒 Future Enhancements
+##  Future Enhancements
 - Stronger **security and authentication** (JWT tokens, encrypted communication).  
 - Advanced **AI models** for customer behavior analysis.  
 - **Integration with payment gateways**.  
@@ -56,7 +56,7 @@ SmartShoppingApp/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Import `Database/schema.sql` into MySQL.  
 2. Run `API_Server/Program.cs` with .NET 6+.  
 3. Open `Website/index.html` to manage products.  
@@ -65,12 +65,12 @@ SmartShoppingApp/
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Asmaa Abdulrahman Al-Enazi**  
 📍 Yanbu Industrial City, Saudi Arabia  
-📧 asmaazi966@gmail.com | 📞 +966 55 003 0467  
+ asmaazi966@gmail.com | +966550030467  
 
 ---
 
-## 🌟 Acknowledgment
+##  Acknowledgment
 This project was built as a graduation project and reflects a passion for **technology, creativity, and problem-solving** in real-world retail solutions.
