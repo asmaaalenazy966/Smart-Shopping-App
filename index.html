@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SmartShopping - Admin</title>
+</head>
+<body>
+  <h1>Admin Dashboard (Demo)</h1>
+  <p>Manage products and users (static demo).</p>
+  <ul id="products"></ul>
+  <script>
+    fetch('/api/products').then(r=>r.json()).then(data=>{
+      const list = document.getElementById('products');
+      data.forEach(p=>{
+        const li = document.createElement('li');
+        li.textContent = `${p.name} - ${p.price} SAR`;
+        list.appendChild(li);
+      });
+    }).catch(e=>console.error(e));
+  </script>
+</body>
+</html>
